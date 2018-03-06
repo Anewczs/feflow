@@ -23,7 +23,8 @@
   },
   "license": "MIT",
   "bin": {
-    "feflow": "./bin/feflow"
+    "feflow": "./bin/feflow",
+    "fef": "./bin/feflow"
   },
   "configs": {
     "compatibleVersion": ">=0.13.0"
