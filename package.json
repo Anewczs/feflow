@@ -1,0 +1,32 @@
+{
+  "name": "feflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feflow/feflow.git"
+  },
+  "keywords": [
+    "feflow"
+  ],
+  "author": "ixlei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feflow/feflow/issues"
+  },
+  "homepage": "https://github.com/feflow/feflow#readme",
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "postcss-loader": "^2.1.3",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.2.0",
+    "webpack-parallel-uglify-plugin": "^1.1.0"
+  }
+}
