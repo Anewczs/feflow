@@ -1,0 +1,35 @@
+.footer {
+    background: rgba(64, 67, 74, 1);
+    .content {
+        width: 980px;
+        margin: 0 auto;
+        height: 150px;
+        display: -webkit-box;
+        -webkit-box-align: center;
+        background: none;
+        .nav-blog {
+            .title {
+                color: #fff;
+                margin-bottom: 10px;
+            }
+            .list {
+                display: -webkit-box;
+                .column {
+                    margin-left: 30px;
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                    a {
+                        color: rgb(122, 125, 129)
+                    }
+                }
+            }
+        }
+        .right {
+            margin-left: 80px;
+            img {
+                height: 45px;
+            }
+        }
+    }
+}

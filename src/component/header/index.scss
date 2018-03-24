@@ -1,0 +1,41 @@
+.header {
+    height: 80px;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    background: #fff;
+    .nav {
+        width: 980px;
+        margin: 0 auto;
+        display: -webkit-box;
+        -webkit-box-align: center;
+        -webkit-box-pack: justify;
+        .logo {
+            height: 50px;
+            width: 180px;
+            background: url(https://qpic.url.cn/feeds_pic/ajNVdqHZLLDYTUgEohdNKr0ibXJvNnXRJHIcjD7Suabz3FwV2O58miaw/) no-repeat;
+            background-size: contain;
+        }
+        .right {
+            display: -webkit-box;
+            -webkit-box-align: center;
+            -webkit-box-pack: justify;
+            .doc {
+                a {
+                    color: #327aff;
+                }
+            }
+            .log {
+                a {
+                    color: rgb(213, 214, 214);
+                }
+            }
+            &>div {
+                margin-right: 40px;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}

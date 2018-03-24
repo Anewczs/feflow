@@ -1,0 +1,37 @@
+li,
+ul,
+p,
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 12px;
+    color: #4d4d4d;
+    min-height: 100vh;
+    -webkit-overflow-scrolling: touch;
+    font-family: PingFangSC-Regular, "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
+}
+
+body.is-scroll {
+    pointer-events: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    background: url(https://qpic.url.cn/feeds_pic/ajNVdqHZLLDiaiaVSu2b0vVicpFeCfeJqxyUHMjLHjBwCplsfymFpbqvQ/) no-repeat;
+    background-size: contain;
+}

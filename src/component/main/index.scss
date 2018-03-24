@@ -1,0 +1,54 @@
+.main {
+    .logo {
+        background: url(https://qpic.url.cn/feeds_pic/Q3auHgzwzM7XnSicX3CMEb3OrUl1BIgDP3sjQZPtkAj8vdmTHMS6DXQ/) 48px 0 no-repeat;
+        width: 541px;
+        height: 120px;
+        background-size: contain;
+        margin: 120px auto 0;
+    }
+    .slogan {
+        margin: 48px auto 0;
+        max-width: 640px;
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+        letter-spacing: 4px;
+    }
+    .btn {
+        width: 400px;
+        display: -webkit-box;
+        -webkit-box-align: center;
+        -webkit-box-pack: justify;
+        margin: 55px auto 0;
+        &>div {
+            height: 60px;
+            width: 180px;
+            border-radius: 4px;
+            &.doc {
+                background: #fff;
+                a {
+                    color: #327aff;
+                }
+            }
+            &.log {
+                border: 1px solid #fff;
+                a {
+                    color: #fff;
+                }
+            }
+            a {
+                display: block;
+                width: 100%;
+                text-align: center;
+                height: 60px;
+                line-height: 60px;
+                font-size: 18px;
+            }
+        }
+    }
+    .proj-info {
+        width: 120px;
+        margin: 120px auto 0;
+    }
+    padding-bottom: 180px;
+}

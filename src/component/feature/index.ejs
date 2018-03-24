@@ -1,0 +1,14 @@
+<div class="feature">
+    <div class="main">
+        <% item.forEach(function(data) { %>
+            <div class="item">
+                <div class="icon">
+                    <img src="<%=data.img%>" />
+                </div>
+                <div class="text">
+                    <%=data.text%>
+                </div>
+            </div>
+            <% }) %>
+    </div>
+</div>
