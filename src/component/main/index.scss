@@ -6,15 +6,21 @@
         width: 541px;
         height: 120px;
         background-size: contain;
-        margin: 100px auto 0;
+        margin: 120px auto 0;
+        animation: 2s move;
+    }
+    .right-icon {
+        background: url(https://qpic.url.cn/feeds_pic/ajNVdqHZLLCrCqWicD1sC168vTmIJtR9yeyAg2leic4LmtTibmZFlG4wg/) no-repeat;
+        background-size: contain;
     }
     .slogan {
-        margin: 48px auto 0;
+        margin: 68px auto 0;
         max-width: 640px;
         text-align: center;
         color: #fff;
         font-size: 24px;
         letter-spacing: 4px;
+        animation: 2s move;
     }
     .btn {
         width: 400px;
@@ -22,6 +28,10 @@
         -webkit-box-align: center;
         -webkit-box-pack: justify;
         margin: 55px auto 0;
+        animation: 2s show;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
         &>div {
             height: 60px;
             width: 180px;
@@ -51,6 +61,32 @@
     .proj-info {
         width: 120px;
         margin: 120px auto 0;
+        animation: 1s show;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     //padding-bottom: 180px;
+}
+
+@keyframes move {
+    0% {
+        opacity: 0.6;
+        transform: scale(0.6) translate(0, 120px)
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translate(0, 0);
+    }
+}
+
+@keyframes show {
+    0% {
+        transform: scale(0.6);
+        opacity: .8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
