@@ -8,6 +8,9 @@
         background-size: contain;
         margin: 120px auto 0;
         animation: 2s move;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .right-icon {
         background: url(https://qpic.url.cn/feeds_pic/ajNVdqHZLLCrCqWicD1sC168vTmIJtR9yeyAg2leic4LmtTibmZFlG4wg/) no-repeat;
@@ -21,6 +24,9 @@
         font-size: 24px;
         letter-spacing: 4px;
         animation: 2s move;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .btn {
         width: 400px;
@@ -29,7 +35,7 @@
         -webkit-box-pack: justify;
         margin: 55px auto 0;
         animation: 2s show;
-        animation-delay: 1s;
+        animation-delay: 2s;
         animation-fill-mode: forwards;
         opacity: 0;
         &>div {
@@ -38,12 +44,14 @@
             border-radius: 4px;
             &.doc {
                 background: #fff;
+                cursor: pointer;
                 a {
                     color: #327aff;
                 }
             }
             &.log {
                 border: 1px solid #fff;
+                cursor: pointer;
                 a {
                     color: #fff;
                 }
@@ -62,7 +70,7 @@
         width: 120px;
         margin: 120px auto 0;
         animation: 1s show;
-        animation-delay: 1s;
+        animation-delay: 2s;
         animation-fill-mode: forwards;
         opacity: 0;
     }
@@ -71,7 +79,7 @@
 
 @keyframes move {
     0% {
-        opacity: 0.6;
+        opacity: 0;
         transform: scale(0.6) translate(0, 120px)
     }
     100% {

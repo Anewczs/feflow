@@ -32,6 +32,50 @@ a {
 }
 
 .content {
-    background: url(https://qpic.url.cn/feeds_pic/ajNVdqHZLLDiaiaVSu2b0vVicpFeCfeJqxyUHMjLHjBwCplsfymFpbqvQ/) no-repeat;
+    background: url(https://qpic.url.cn/feeds_pic/ajNVdqHZLLBdjQ4PgBv8553pRe0xiaGC6Ml0iaWia4uksxGDDbr6Q1A5g/) no-repeat;
     background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+    .top-right-icon {
+        position: absolute;
+        height: (594px/2);
+        width: (870px/2);
+        top: 0;
+        right: 0;
+        background: url(https://qpic.url.cn/feeds_pic/ajNVdqHZLLCM48rSIFaJycRbIicBBhUs90zSciaPJsYq1lG0bYgBicueA/) no-repeat;
+        background-size: contain;
+        animation: topRightIconShow 1s ease-in;
+    }
+    .bottom-left-icon {
+        position: absolute;
+        height: (594px/2);
+        width: (870px/2);
+        bottom: 0;
+        left: 0;
+        background: url(https://qpic.url.cn/feeds_pic/Q3auHgzwzM6icGRRZfjTPLKw5W0o9oibf7b6xnBh9ib91RAxIb9oSEDJw/) no-repeat;
+        background-size: contain;
+        animation: bottomLeftIcon 1s ease-in;
+    }
+}
+
+@keyframes topRightIconShow {
+    0% {
+        right: -(870px/2);
+        top: -(594px/2);
+    }
+    100% {
+        right: 0;
+        top: 0;
+    }
+}
+
+@keyframes bottomLeftIcon {
+    0% {
+        bottom: -(594px/2);
+        left: -(870px/2);
+    }
+    100% {
+        bottom: 0;
+        left: 0;
+    }
 }
