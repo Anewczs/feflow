@@ -4,9 +4,9 @@
     .logo {
         background: url(https://qpic.url.cn/feeds_pic/Q3auHgzwzM7XnSicX3CMEb3OrUl1BIgDP3sjQZPtkAj8vdmTHMS6DXQ/) 48px 0 no-repeat;
         width: 541px;
-        height: 120px;
+        height: 15vh;
         background-size: contain;
-        margin: 120px auto 0;
+        margin: 15vh auto 0;
         animation: 2s move;
         animation-delay: 1s;
         animation-fill-mode: forwards;
@@ -17,7 +17,7 @@
         background-size: contain;
     }
     .slogan {
-        margin: 68px auto 0;
+        margin: 10vh auto 0;
         max-width: 640px;
         text-align: center;
         color: #fff;
@@ -33,7 +33,7 @@
         display: -webkit-box;
         -webkit-box-align: center;
         -webkit-box-pack: justify;
-        margin: 55px auto 0;
+        margin: 7vh auto 0;
         animation: 2s show;
         animation-delay: 2s;
         animation-fill-mode: forwards;
@@ -68,7 +68,7 @@
     }
     .proj-info {
         width: 120px;
-        margin: 120px auto 0;
+        margin: 15vh auto 0;
         animation: 1s show;
         animation-delay: 2s;
         animation-fill-mode: forwards;
