@@ -20,12 +20,15 @@
             display: -webkit-box;
             -webkit-box-align: center;
             -webkit-box-pack: justify;
-            .doc {
-                a {
-                    color: #327aff;
+            &>div {
+                &:hover {
+                    a {
+                        color: #327aff;
+                    }
                 }
             }
-            .log {
+            .log,
+            .doc {
                 a {
                     color: rgb(213, 214, 214);
                 }
