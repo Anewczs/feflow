@@ -9,26 +9,14 @@ export default class Footer {
     render() {
         document.querySelector('#footer').innerHTML = tmpl({
             navUrl: [{
-                text: 'hdhd',
-                url: 'http://www.alloyteam.com/'
+                text: '社区',
+                url: 'https://github.com/feflow'
             }, {
-                text: 'hdhd',
-                url: 'http://www.alloyteam.com/'
+                text: '腾讯IVWEB',
+                url: 'https://ivweb.io/'
             }, {
-                text: 'hdhd',
-                url: 'http://www.alloyteam.com/'
-            }, {
-                text: 'hdhd',
-                url: 'http://www.alloyteam.com/'
-            }, {
-                text: 'hdhd',
-                url: 'http://www.alloyteam.com/'
-            }, {
-                text: 'hdhd',
-                url: 'http://www.alloyteam.com/'
-            }, {
-                text: 'hdhd',
-                url: 'http://www.alloyteam.com/'
+                text: 'NOW直播',
+                url: 'https://now.qq.com/'
             }],
             currYear: new Date().getFullYear()
         })
