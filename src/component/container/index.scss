@@ -56,6 +56,24 @@ a {
         background-size: contain;
         animation: bottomLeftIcon 1s ease-in;
     }
+    .left-top-icon {
+        position: absolute;
+        height: 55px;
+        width: 107px;
+        top: 30px;
+        left: 40px;
+        background: url(https://qpic.url.cn/feeds_pic/PiajxSqBRaEKaUuzmKbYRiampnAxa7dAwicxAf3piag0eYfAAVAsJ5hJVQ/) no-repeat;
+        background-size: contain;
+    }
+    .right-bottom-icon {
+        position: absolute;
+        height: 55px;
+        width: 107px;
+        bottom: 30px;
+        right: 40px;
+        background: url(https://qpic.url.cn/feeds_pic/PiajxSqBRaEKaUuzmKbYRiampnAxa7dAwicxAf3piag0eYfAAVAsJ5hJVQ/) no-repeat;
+        background-size: contain;
+    }
 }
 
 @keyframes topRightIconShow {
