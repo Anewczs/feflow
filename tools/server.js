@@ -9,7 +9,7 @@ const fs = require('fs');
 
 app.use(middleware(compiler, {
     noInfo: true,
-    publicPath: 'http://127.0.0.1:8080/dist',
+    publicPath: 'http://127.0.0.1:8081/dist',
     index: path.resolve(__dirname, '../index.html'),
     stats: {
         colors: true
@@ -23,4 +23,4 @@ app.get('/', (req, res) => {
 
 app.use(require("webpack-hot-middleware")(compiler));
 
-app.listen(8080, () => console.log('Example app listening on port 3000!'))
+app.listen(8081, () => console.log('Example app listening on port 3000!'))
