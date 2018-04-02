@@ -9,7 +9,7 @@ export default class Footer {
     render() {
         document.querySelector('#footer').innerHTML = tmpl({
             navUrl: [{
-                text: '社区',
+                text: 'Feflow社区',
                 url: 'https://github.com/feflow'
             }, {
                 text: '腾讯IVWEB',
